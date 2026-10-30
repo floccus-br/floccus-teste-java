@@ -1,4 +1,3 @@
-
 package org.example;
 
 import com.sun.net.httpserver.HttpExchange;
@@ -101,7 +100,7 @@ public class Main {
                         }
 
                         .container {
-                            width: 100%;
+                            width: 100%%;
                             max-width: 480px;
                             padding: 40px;
                             background: white;
@@ -241,7 +240,7 @@ public class Main {
 
         logRequest(exchange);
 
-        try (var input = Main.class.getResourceAsStream("/logo.png")) {
+        try (var input = Main.class.getResourceAsStream("/logo-color.png")) {
 
             if (input == null) {
                 log("ERROR", "Arquivo logo.png não encontrado");
